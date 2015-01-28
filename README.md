@@ -1,7 +1,7 @@
 # INSTALLATION
 ## Install Vagrant, VirtualBox and Ansible
-http://docs-v1.vagrantup.com/v1/docs/getting-started/
-http://docs.ansible.com/intro_installation.html
+* http://docs-v1.vagrantup.com/v1/docs/getting-started/
+* http://docs.ansible.com/intro_installation.html
 
 ## Add precise64 box
     vagrant box add precise64 http://files.vagrantup.com/precise64.box
