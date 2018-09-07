@@ -4,8 +4,7 @@
 * http://docs.ansible.com/intro_installation.html
 
 ## Add precise64 box
-    vagrant box add precise64 http://files.vagrantup.com/precise64.box
-
+    vagrant box add precise64 http://files.vagrantup.com/precise64.box 
 ## Add plugin guest plugin
     vagrant plugin install vagrant-vbguest
 
@@ -44,9 +43,6 @@ If you want to change `192.168.33.10` to another IP look into the `Vagrantfile` 
 
     # In the guest
     cd /vagrant
-    cd BloodBrotherServers
-    # Install npm modules following README
-    ngServer server
 
 ## Sharing files between guest and host
 Your vagrant folder (the one which contains `Vagrantfile` file) is automatically mounted to guest `/vagrant` folder
