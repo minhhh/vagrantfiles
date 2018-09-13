@@ -15,7 +15,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.communicator = "winrm"
   config.winrm.timeout = 500
   config.winrm.username = "vagrant"
-  config.winrm.password = "vagrant"
+  config.winrm.password = "vagrant" # Remember to login and change the password of the `vagrant` user to "vagrant"
 
   # The url from where the 'config.vm.box' box will be fetched if it
   # doesn't already exist on the user's system.

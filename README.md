@@ -4,9 +4,15 @@
 * http://docs.ansible.com/intro_installation.html
 
 ## Add precise64 box
-    vagrant box add precise64 http://files.vagrantup.com/precise64.box 
+```
+vagrant box add precise64 http://files.vagrantup.com/precise64.box 
+```
+
 ## Add plugin guest plugin
-    vagrant plugin install vagrant-vbguest
+
+```
+vagrant plugin install vagrant-vbguest
+```
 
 ## Create box
 
